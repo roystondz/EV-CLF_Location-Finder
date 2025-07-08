@@ -146,4 +146,4 @@ This project satisfies final year requirements by demonstrating:
 
 ---
 
-**Made with ❤️ by a Royston Akash Dsouza - simple code, smart algorithms! 🎓**
+**Made with ❤️ by Royston Akash Dsouza - simple code, smart algorithms! 🎓**

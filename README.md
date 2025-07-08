@@ -40,10 +40,10 @@ This application goes beyond simple "find nearest station" - it uses a smart alg
    - TomTom API key (already configured in environment)
 
 2. **Installation**
-   \`\`\`bash
+   ```bash
    npm install
    npm run dev
-   \`\`\`
+   ```
 
 3. **Usage**
    - Open http://localhost:3000
@@ -53,14 +53,14 @@ This application goes beyond simple "find nearest station" - it uses a smart alg
 ## 🧠 The Algorithm Explained
 
 ### Step 1: Data Collection
-\`\`\`
+
 1. Get user location (GPS or geocoding)
 2. Find nearby EV charging stations (TomTom Places API)
 3. Calculate actual routes to each station (TomTom Routing API)
-\`\`\`
+
 
 ### Step 2: Multi-Factor Scoring
-\`\`\`
+
 For each station:
   Distance Score (0-40 points):
     - Start with 40 points
@@ -77,14 +77,14 @@ For each station:
     - EVgo: 22 points
     - Fast charging: 20 points
     - Others: 15 points
-\`\`\`
+
 
 ### Step 3: Optimization
-\`\`\`
+
 1. Calculate total score for each station
 2. Sort by highest score (best option first)
 3. Return recommendation with explanation
-\`\`\`
+
 
 ## 📊 Algorithm Performance
 
@@ -107,7 +107,7 @@ This project demonstrates:
 
 ## 🔍 Code Structure
 
-\`\`\`
+```bash
 app/
 ├── page.tsx                 # Main React component (frontend)
 ├── api/
@@ -116,7 +116,7 @@ app/
 │   └── best-route/route.ts  # Smart routing algorithm
 components/ui/               # Reusable UI components
 README.md                    # This file
-\`\`\`
+```
 
 ## 🚀 Future Enhancements
 
@@ -146,4 +146,4 @@ This project satisfies final year requirements by demonstrating:
 
 ---
 
-**Made with ❤️ by a CS student - simple code, smart algorithms! 🎓**
+**Made with ❤️ by a Royston Akash Dsouza - simple code, smart algorithms! 🎓**

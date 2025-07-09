@@ -295,6 +295,9 @@ export default function EVChargingApp() {
         <div className="text-center mt-8 text-sm text-gray-500">
           <p>🧠 Powered by 4 different algorithms: Dijkstra's, A*, Genetic Algorithm & Machine Learning</p>
         </div>
+        <div className="text-center mt-2 text-sm text-gray-500">
+          <p>Made by Royston Akash Dsouza</p>
+        </div>
       </div>
     </div>
   )

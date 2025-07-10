@@ -1,7 +1,5 @@
 # ⚡ Smart EV Charging Finder
 
-A CS student project that helps electric vehicle owners find the best charging stations using intelligent route optimization algorithms.
-
 ## 🎯 Project Overview
 
 This application goes beyond simple "find nearest station" - it uses a smart algorithm to recommend the **truly best** charging station by considering:
